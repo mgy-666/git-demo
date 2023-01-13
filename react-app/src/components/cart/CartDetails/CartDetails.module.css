@@ -1,0 +1,38 @@
+.outer {
+  background-color: white;
+  position: fixed;
+  padding-bottom: 190rem;
+  z-index: 9998;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.outer header {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 40rem;
+  font-weight: 600;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.outer span {
+  padding: 40rem;
+  font-size: 30rem;
+  color: gray;
+  display: inline-block;
+}
+.icon {
+  padding-right: 10px;
+}
+.meallist {
+  width: 100%;
+  max-height: 60vh;
+  overflow: auto;
+}

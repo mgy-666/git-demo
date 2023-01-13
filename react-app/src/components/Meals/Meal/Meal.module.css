@@ -1,0 +1,35 @@
+img {
+  width: 300rem;
+}
+.outer {
+  display: flex;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+}
+.descrip {
+  padding: 20px;
+}
+.textteam {
+  padding-bottom: 20px;
+  color: black;
+  flex: auto;
+}
+.textteam p {
+  font-size: 36rem;
+  margin: 0;
+}
+.textteam span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 26rem;
+}
+.btnteam {
+  font-size: 30rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.btnteam .mm::before {
+  content: "￥";
+  font-size: 20rem;
+  color: black;
+}

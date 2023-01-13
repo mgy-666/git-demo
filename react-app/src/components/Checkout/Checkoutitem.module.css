@@ -1,0 +1,30 @@
+.outer {
+  display: flex;
+  width: 100%;
+}
+.outer img {
+  padding-right: 20rem;
+  width: 230rem;
+}
+.inside {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.inside header {
+  font-size: 40rem;
+  font-weight: 600;
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+  width: 650rem;
+  padding-bottom: 20rem;
+}
+.number > div {
+  margin-left: -190rem;
+}
+.number > span {
+  font-size: 35rem;
+  font-weight: 600;
+}

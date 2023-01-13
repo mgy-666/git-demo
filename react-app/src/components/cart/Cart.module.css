@@ -1,0 +1,76 @@
+.outer {
+  position: fixed;
+  height: 100rem;
+  background-color: rgb(99, 97, 97);
+  width: 900rem;
+  bottom: 30rem;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.paperbox {
+  height: 100%;
+  position: relative;
+}
+
+.paperbox img {
+  position: absolute;
+  bottom: 0;
+  left: -5px;
+  height: 150%;
+  width: 125rem;
+}
+.redbot {
+  background-color: red;
+  left: 90rem;
+  top: -40rem;
+  color: white;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  font-size: 35rem;
+  font-weight: 600;
+}
+.allprice {
+  font-weight: 600;
+  font-size: 40rem;
+  color: rgb(238, 234, 234);
+  position: absolute;
+  left: 150rem;
+}
+.allprice::before {
+  content: "￥";
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  height: 100rem;
+  width: 250rem;
+  background-color: yellow;
+  border: none;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 45rem;
+  text-align: center;
+  border-radius: 20px;
+}
+.null {
+  color: rgb(197, 192, 192);
+  position: absolute;
+  left: 150rem;
+  font-size: 40rem;
+  font-weight: 600;
+}
+.disable {
+  background-color: gray;
+  color: white;
+}

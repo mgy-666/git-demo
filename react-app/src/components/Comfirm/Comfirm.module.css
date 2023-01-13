@@ -1,0 +1,39 @@
+.drop {
+  z-index: 1001;
+}
+.outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 700rem;
+  height: 400rem;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  font-size: 50rem;
+  padding-top: 20rem;
+}
+.btnteam {
+  padding-bottom: 50rem;
+}
+.cancel,
+.ok {
+  border: 1px #b1b0b0 solid;
+  background-color: white;
+  color: black;
+  padding: 13rem 75rem;
+  border-radius: 20px;
+}
+.ok {
+  margin-left: 20px;
+  background-color: orange;
+  color: black;
+}

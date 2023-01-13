@@ -1,0 +1,7 @@
+.meals {
+  width: 1000rem;
+  height: 100vh;
+  overflow: auto;
+  padding-bottom: 100rem;
+  padding-top: 60rem;
+}

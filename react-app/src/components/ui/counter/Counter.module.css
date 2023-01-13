@@ -1,0 +1,20 @@
+.Counter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 230rem;
+}
+.sub,
+.add {
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  background-color: yellow;
+  font-size: 30rem;
+}
+.sub {
+  background-color: transparent;
+  padding: 1px 2px;
+  border: solid 1px black;
+}
